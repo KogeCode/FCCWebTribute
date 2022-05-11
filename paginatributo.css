@@ -1,0 +1,118 @@
+body{
+    background: linear-gradient(to bottom, rgb(165, 224, 246), white);
+    text-justify: center;
+}
+
+h1 {
+    font-size: 4rem;
+    margin-bottom: 0;
+    display: block;
+}
+
+#description_title{
+    display: block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    font-family: 'Bangers', cursive;
+    font-size: 45px ;
+        -webkit-text-stroke:2px;
+        -webkit-text-stroke-color:rgb(4, 0, 0) ;
+        -webkit-text-fill-color: rgb(255, 247, 0) ;
+}
+
+#title{
+    font-family: 'Bangers', cursive;
+    font-size: 120px ;
+        -webkit-text-stroke:2px;
+        -webkit-text-stroke-color:rgb(4, 0, 0) ;
+        -webkit-text-fill-color: red ;
+}
+
+#main{
+    text-align: center;
+    background: linear-gradient(to bottom, rgb(249, 182, 10), white);
+    margin: 30px 8px;
+    padding: 15px;
+    border-radius: 5px;
+    text-decoration-color: aqua;
+}
+
+#img-div{
+    padding: 10px;
+    margin:0;
+}
+
+img {
+    max-width: 80%;
+    display: block;
+    height: auto;
+    margin: 0 auto;
+}
+
+#img-caption {
+    margin: 15px 0 5px 0;
+}
+
+figure {
+        display: block;
+        margin-block-start: 1em;
+        margin-block-end: 1em;
+        margin-inline-start: 40px;
+        margin-inline-end: 40px;
+    }
+
+
+ul {
+    max-width: 650px;
+    margin: 0 auto 50px auto;
+    text-align: left;
+    line-height: 1.6;
+    list-style: none;
+    padding-left: 0;
+}
+
+li{
+    margin: 16px;
+    position: relative;
+    padding-left: 20px;
+    font-size: 20px;
+}    
+li:before {
+        content: '';
+        width: 15px;
+        height: 15px;
+        position: absolute;
+        background-image: url(https://w7.pngwing.com/pngs/972/886/png-transparent-shenron-bola-de-drac-android-tapingo-android-dragon-orange-android.png);
+        background-size: cover;
+        background-position: top;
+        left: 0;
+        top: 15%;
+        transform: translateY(-60%);
+        border-radius: 50%;
+}
+
+
+blockquote {
+    display: block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 40px;
+    margin-inline-end: 40px;
+    font-style: italic;
+    max-width: 800px;
+    margin: 0 auto 50px auto;
+    text-align: left;
+    font-size: 20px;
+}
+
+h3 {
+    display: block;
+    font-size: 1.17em;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    font-weight: bold;
+}
